@@ -1,0 +1,66 @@
+#titulo,
+#subtitulo {
+	color: #3647a1;
+}
+
+#listaordenada,
+#listaNaordenada {
+	color: #1013d5;
+	background-color: #d5d210;
+}
+
+h2,
+h3 {
+	font-size: 50px;
+}
+
+#rodape h2 {
+	color: red;
+}
+
+#rodape {
+	border: dashed, 7px, red;
+}
+
+h2+h3 {
+	font-size: 50px;
+}
+
+[name=lista] {
+	background-color: #e3e2a6;
+}
+
+p {
+	font-family: sans-serif, Tahoma;
+}
+
+[name] {
+	background-color: #b7e6d5;
+}
+
+caption {
+	background-color: #0b5eb1;
+	color: #fff;
+	margin: 15px;
+	font-size: 20px;
+}
+
+tr:first-child {
+	color: purple;
+	background-color: wheat;
+}
+
+tr:nth-child(2) {
+	color: wheat;
+	background-color: purple;
+}
+
+tr:nth-child(2n+4) {
+	background-color: yellow;
+	color: black;
+}
+
+tr:nth-child(2n+3) {
+	color: white;
+	background-color: black;
+}
